@@ -9,6 +9,7 @@ import '../routes.dart';
 import 'widgets/error_indicator.dart';
 import 'widgets/loading_indicator.dart';
 import 'widgets/movies_list.dart';
+import 'main_page.dart';
 
 class EventDetailsPage extends StatelessWidget {
   final Event event;
