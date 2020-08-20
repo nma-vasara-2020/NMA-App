@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:movies/routes.dart';
+import 'package:movies/ui/tabs/contacts_tab.dart';
+import 'package:movies/ui/tabs/songs_tab.dart';
 
-import 'tabs/movies_in_theater_tab.dart';
-import 'tabs/popular_movies_tab.dart';
 import 'tabs/calendar_tab.dart';
 
 class MainPage extends StatefulWidget {
@@ -71,9 +71,9 @@ class _MainPageState extends State<MainPage> {
       case 0:
         return CalendarTab();
       case 1:
-        return PopularMoviesTab();
+        return SongsTab();
       case 2:
-        return MoviesInTheaterTab();
+        return ContTab();
       default:
         throw ArgumentError("Tab with index $_currentIndex doesn't exist");
     }
