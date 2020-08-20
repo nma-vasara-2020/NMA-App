@@ -12,40 +12,54 @@ class Song {
   );
 
   static final SONGS = [
-    Song(
-        1, "Kai Sirpsta Vyšnios Suvalkijoj...", "Vytautas Kernagis", """      Am
-        Kai sirpsta vyšnios Suvalkijos
-        Dm
-        Raudonos, kad pravirkt gali
-        G7
-        Rasa ten laša nuo lelijų
-        C
-        Lyg dalgio ašmenys gaili
-        A7
-        Ir pjauna širdį tarsi dobilą
-        Dm
-        Lig gyvuonies, lig pašaknų
-        B7
-        O vakarais kažko taip tolima
-        E                        E7
-        Kažko nėra, kažko nėra - lyg artimų
-        Am
-        Tokia tyla gyvybėn smelkias
-        Dm
-        Kasdienio židinio ugnim
-        G7
-        Tokia daina, kad užsimerkia
-        C
-        Dainuodami - lyg mirdami
+    Song(1, "Kai Sirpsta Vyšnios Suvalkijoj...", "Vytautas Kernagis", """
+    Am
+      Kai sirpsta vyšnios Suvalkijos
+      Dm
+      Raudonos, kad pravirkt gali
+      G7
+      Rasa ten laša nuo lelijų
+      C
+      Lyg dalgio ašmenys gaili
+      A7
+      Ir pjauna širdį tarsi dobilą
+      Dm
+      Lig gyvuonies, lig pašaknų
+      B7
+      O vakarais kažko taip tolima
+      E                        E7
+      Kažko nėra, kažko nėra - lyg artimų
+      Am
+      Tokia tyla gyvybėn smelkias
+      Dm
+      Kasdienio židinio ugnim
+      G7
+      Tokia daina, kad užsimerkia
+      C
+      Dainuodami - lyg mirdami
+       
+      A7
+      Lig pašaknų ten pjauna širdį
+      Dm
+      Ten teka vandenys liūdnai
+      B7
+      Ir dulkės vieškelių dar šiltos
+      E             E7
+      Tarsi sodybų pelenai
         
-        A7
-        Lig pašaknų ten pjauna širdį
-        Dm
-        Ten teka vandenys liūdnai
-        B7
-        Ir dulkės vieškelių dar šiltos
-        E             E7
-        Tarsi sodybų pelenai"""),
+      Kai sirpsta vyšnios Suvalkijoj,
+      Raudonos, kad pravirkt gali, –
+      Rasa ten laša nuo lelijų –
+      Lyg dalgio ašmenys – gaili.
+         
+      Ir pjauna širdį tarsi dobilą
+      Lig gyvuonies, lig pašaknų,
+      O vakarais kažko taip tolima,
+      Kažko nėra, kažko nėra – lyg artimų.
+        
+      Kai sirpsta vyšnios Suvalkijoj.
+        
+       """),
     Song(2, "Matrica", "Saulius Mykolaitis", """
       G
       Užgęsint kai ugnis
@@ -99,7 +113,8 @@ class Song {
       Nebegelbsti ruduo
       
       Užmiršau, kad tikiu debesėlio šviesa
-      Kiekvienam kosmonautui, vienam kosmonautui sušukim URA!
+      Kiekvienam kosmonautui, vienam kosmonautui sušukim 
+      URA!
       Mano matrica tu,
       Mano saulė, akmuo
       Mano žodžiai lietus, 

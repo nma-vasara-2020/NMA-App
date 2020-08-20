@@ -15,9 +15,15 @@ class SongDetailsPage extends StatelessWidget {
           title: Text(song.name),
         ),
         body: SingleChildScrollView(
-          child: Padding(
-            padding: const EdgeInsets.only(top: 16.0),
-            child: Text(song.words),
+          child: Row(
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(top: 16.0),
+                child: Text(
+                  song.words,
+                ),
+              ),
+            ],
           ),
         ));
   }
